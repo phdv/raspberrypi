@@ -1,0 +1,30 @@
+Nextcloud available on Nokia, but Not avaiable on Model: SM-J330F
+
+
+
+************ CAUSE OF ERROR ************
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String java.lang.String.substring(int, int)' on a null object reference
+at com.owncloud.android.datamodel.OCFile.getLocalId(OCFile.java:555)
+at com.owncloud.android.ui.fragment.FileDetailActivitiesFragment.lambda$fetchAndSetData$6$com-owncloud-android-ui-fragment-FileDetailActivitiesFragment(FileDetailActivitiesFragment.java:302)
+at com.owncloud.android.ui.fragment.FileDetailActivitiesFragment$$ExternalSyntheticLambda6.run(Unknown Source:8)
+at java.lang.Thread.run(Thread.java:764)
+
+************ APP INFORMATION ************
+ID: com.nextcloud.client
+Version: 30180090
+Build flavor: gplay
+
+************ DEVICE INFORMATION ************
+Brand: samsung
+Device: j3y17lte
+Model: SM-J330F
+Id: PPR1.180610.011
+Product: j3y17lteser
+
+************ FIRMWARE ************
+SDK: 28
+Release: 9
+Incremental: J330FXXS4CUD3
+
+
